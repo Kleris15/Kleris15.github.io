@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leris_Portfolio</title>
+    <!-- Liens CDN de Bootstrap pour les styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		
+		    <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+
+
+    <!-- Votre propre fichier CSS pour les styles personnalisés -->
+    <style>
+        body {
+            background-image: url('img/a1.jpg');
+            background-size: cover;
+            background-position: center;
+            /* Autres styles pour le corps de votre site si nécessaire */
+            margin: 0; /* Supprime les marges par défaut du body */
+            padding: 0; /* Supprime les paddings par défaut du body */
+            min-height: 100vh; /* Pour que le footer reste en bas de page */
+            position: relative; /* Pour utiliser un positionnement relatif */
+        }
+
+   
+       header.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; /* Ajustez la hauteur selon vos besoins */
+    margin-top: 10px; /* Ajoute de la marge en haut de l'en-tête */
+     }
+
+   header.text-center img {
+    border-radius: 50%; /* Pour rendre l'image circulaire */
+    max-width: 80%; /* Limite la largeur maximale de l'image */
+    max-height: 80%; /* Limite la hauteur maximale de l'image */
+   }
+   
+
+
+    </style>
+</head>
+
+<body>
+
+<!--Prévoir un header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Accueil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projets.html">Projet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="compétences.html">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main >   
+        
+        <header class="text-center">
+            <img src="img/me.jpg" alt="profil" class="rounded-circle img-fluid" style="width: 350px; height: 350px;">
+        </header>
+
+    <section>
+        <div class="container">
+            <div class="p-5 mb-3 bg-light rounded-3">
+                <div class="container-fluid py-5">
+                        <h2 class="display-5 fw-bold">A propos de moi </h2>
+                        <p class="mb-0">Du nom de Konan Leris, je suis originaire de la Cote d'Ivoire. J'ai quitté mon pays natal pour venir me former dans
+                             l'université francophone canadienne de Moncton en informatique appliquée (ma passion). J'ai toujours eu de l'intéret pour les calculs et les chiffres
+                             mais également pour l'électronique et sa vitesse fulgurante de développement. Choisir l'informatique pour moi n'a été qu'une suite logique des choses. 
+                             Conscient du marché compétifs dans lequel je suis, je me donne à 100% pour obtenir le meilleur résultat pour moi, mais également 
+                             pour tous ceux avec qui j'aurais la chance de travailler.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="p-5 mb-3 bg-light rounded-3">
+                    <div class="container-fluid py-5">
+                        <h2 class="display-5 fw-bold">Sur ce site </h2>
+                            <p class="mb-0">
+                                Pour la suite, je vous invite à continuer vers d'autres session pour voir mes autres projets que J'ai eu à accomplir, 
+                                mes compétences et aussi, n'oublier pas de me laisser vos coordonnées pour d'autres projets ensembles.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+      
+   </main>
+
+    <footer class="footer bg-dark text-white text-center py-5">
+        
+        <div class="container">
+            <p class="m-0 small">Copyright &copy; Website 2023</p>
+        </div>
+        <div class="col-auto">
+            <a class="small" href="#!">Privacy</a>
+            <span class="mx-1">&middot;</span>
+            <a class="small" href="#!">Terms</a>
+            <span class="mx-1">&middot;</span>
+            <a class="small" href="contact.html">Contact</a>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leris_Portfolio</title>
+    <!-- Liens CDN de Bootstrap pour les styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        		    <!-- Font Awesome icons (free version)-->
+                    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+                    <!-- Google fonts-->
+                    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+                    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Votre propre fichier CSS pour les styles personnalisés -->
+    <style>
+       body {
+            background-image: url('img/a1.jpg');
+            background-size: cover;
+            background-position: center;
+            /* Autres styles pour le corps de votre site si nécessaire */
+            margin: 0; /* Supprime les marges par défaut du body */
+            padding: 0; /* Supprime les paddings par défaut du body */
+            min-height: 100vh; /* Pour que le footer reste en bas de page */
+            position: relative; /* Pour utiliser un positionnement relatif */
+        }
+        
+        
+    .carousel-item img {
+        height: 500px; /* Définissez ici la hauteur souhaitée */
+        object-fit: contain; /* Assurez-vous que l'image remplit l'espace défini sans déformation */
+    }
+
+      footer.footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: white; /* Fond blanc pour le footer 
+            color: black; /* Couleur du texte du footer */
+            padding: 20px 0;
+        }
+
+        footer.footer p {
+            color: white; /* Couleur du texte à l'intérieur du footer (par défaut) */
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!--header-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Projet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projets.html">Projet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="compétences.html">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>       
+        <section>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+         
+                <div class="carousel-item active" data-bs-interval="7000">
+                    <img src="img/web.JPG" class="d-block w-100" alt="Intelligence artificielle">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Développeur web</h5>
+                        <p>Création de site web intéractif</p>
+                    </div>
+                </div>
+             
+                
+                <div class="carousel-item" data-bs-interval="7000">
+                    <img src="img/securité.JPG" class="d-block w-100" alt="Developpement web">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sécurité informatique</h5>
+                        <p>Protéger les informations personnelles des clients</p>
+                    </div>
+                </div>
+                <div class="carousel-item"data-bs-interval="7000">
+                    <img src="img/IA.JPG" class="d-block w-100" alt="sécurité informatique">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Intelligence artificielle</h5>
+                        <p>Ce projet visait à implémenter des drones afin de détecter ou de suivre des objets par intelligence artificielle</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </section>
+        
+     
+
+    </main>
+
+    <footer class="footer bg-dark text-white text-center py-5">
+        <div class="container">
+            <p class="m-0 small">Copyright &copy; Website 2023</p>
+            <div class="col-auto">
+                <a class="small" href="#!">Privacy</a>
+                <span class="mx-1">&middot;</span>
+                <a class="small" href="#!">Terms</a>
+                <span class="mx-1">&middot;</span>
+                <a class="small" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Liens CDN de Bootstrap pour les scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-dZlK1Ld6AABQVSt/T98ofG4LbuhlNBUOwqI5Mig4sD5FLe/L8sYor4B6kFvtEK83"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
